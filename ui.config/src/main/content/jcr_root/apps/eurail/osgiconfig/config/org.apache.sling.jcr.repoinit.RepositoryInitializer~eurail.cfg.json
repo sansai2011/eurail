@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/eurail",
+        "create path (nt:unstructured) /content/dam/eurail/jcr:content",
+        "set properties on /content/dam/eurail/jcr:content\n  set cq:conf{String} to /conf/eurail\n  set jcr:title{String} to \"Eurail\"\nend"
+    ]
+}
