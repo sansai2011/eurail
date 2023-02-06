@@ -1,0 +1,150 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border-right: none;
+  padding: 10px 15px;
+  height: 30px;
+  border-radius: 25px 0 0 25px;
+  outline: none;
+  color: #333;
+  box-shadow: inset 0 1px 2px #eee;
+  border: 1px solid #ccc;
+}
+
+.searchButton {
+  width: 70px;
+  height: 51px;
+  border: 1px solid #d3d3d3;
+  background: #f8f8f8;
+  text-align: center;
+  color: #0f0f0f;
+  border-radius: 0 25px 25px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.wrap .search {max-width: 430px;margin: 0 auto;}
+
+.newmembers {
+    display: grid;
+    grid-gap: 56px;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 256px));
+    grid-auto-rows: 380px;
+    grid-auto-flow: dense;
+    justify-content: space-evenly;
+    padding: 10px 0px 10px;
+    align-content: stretch;
+}
+
+.member {
+    width: 300px;
+  background: rgba(255, 213, 70, 0.3);
+  border: 1px solid grey;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 3px 3px 3px grey;
+}
+
+.type {
+  color: #1f7665;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 5px 5px 0px;
+  text-align: center;
+}
+
+.year {
+  color: #1f7665;
+  font-weight: bold;
+  font-size: x-small;
+  margin: 0px 0px 0px;
+  text-align: center;
+}
+
+.thumb {
+  width: 85%;
+  min-height: 160px;
+  max-height: 160px;
+  min-width: 160x;
+  max-width: 160px;
+  object-position: center top;
+  -o-object-fit: cover;
+  object-fit: cover;
+  overflow: hidden;
+  border: 5px solid #fff;
+  border-radius: 4px;
+  box-shadow: 5px 5px 5px grey;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.thumb:hover {
+  position: relative;
+  top: 5px;
+  left: 5px;
+  background: #00CCCC;
+  -webkit-filter: grayscale(10%);
+  filter: grayscale(10%);
+}
+
+.membername {
+  color: #1f7665;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 10px 0px 0px;
+}
+
+.group {
+  color: #333333;
+  font-weight: bold;
+  margin: 0px 0px 5px;
+}
+
+.company {
+  color: #333333;
+  font-weight: normal;
+  margin: 0px 0px 5px;
+}
+
+.iframeVideo{
+    width: 260px;
+    height: 240px;
+}
+
+.classification {
+  color: #333333;
+  font-weight: bold;
+  margin: 0px 0px 10px;
+  font-size: x-small;
+}
+
+.info {
+  margin: 10px;
+}
+
+.searchLimit{
+	display: none;
+}
+
+.imdbVideo{
+    height: 420px;
+    width: 1000px;
+}
