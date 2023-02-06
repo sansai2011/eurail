@@ -1,0 +1,5 @@
+# Do not cache en.html page
+/0002 {
+    /glob "/content/eurail/us/en.html"
+    /type "deny"
+}

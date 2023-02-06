@@ -1,0 +1,2 @@
+# Allow Video Library Services requests
+/0106 { /type "allow" /url "/etc/eurail/videolibrary*"}
